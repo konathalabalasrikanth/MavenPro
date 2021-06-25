@@ -16,10 +16,10 @@ node('master')
     stage('ContinuousTesting')
     {
         git 'https://github.com/konathalabalasrikanth/FunctionalTesting.git'
-        sh 'java -jar /home/ubuntu/.jenkins/workspace/ScriptedPipeline/testing.jar'
+        sh 'java -jar /root/.jenkins/workspace/ScriptedPipeline/testing.jar'
     }
     stage('ContinuousDelivery')
     {
     
-    sh 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war ubuntu@172.31.28.60:/var/lib/tomcat9/webapps/prodapp.war'}
+    //sh 'scp /root/.jenkins/workspace/Jenkins_pipeline/webapp/target/webapp.war ubuntu@172.31.28.60:/var/lib/tomcat9/webapps/prodapp.war'}
 }
