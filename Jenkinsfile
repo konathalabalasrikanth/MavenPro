@@ -15,8 +15,9 @@ node('master')
 
     stage('ContinuousTesting')
     {
-        git 'https://github.com/konathalabalasrikanth/FunctionalTesting.git'
-        sh 'java -jar /root/.jenkins/workspace/ScriptedPipeline/testing.jar'
+        //git 'https://github.com/konathalabalasrikanth/FunctionalTesting.git'
+        //sh 'java -jar /root/.jenkins/workspace/Jenkins_pipeline/testing.jar' 
+
     }
     stage('ContinuousDelivery')
     {
