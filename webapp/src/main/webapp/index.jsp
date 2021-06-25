@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Welcome To IT World.</h1>
+<h1>Welcome 2 IT World.</h1>
 </body>
 <body style="color:red;">
  <div class="container">
